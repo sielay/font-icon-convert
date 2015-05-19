@@ -3,14 +3,15 @@
 var convert = require ('./index'),
     should = require ('should'),
     klass = 'fa-glass',
-    hex = 'f000';
+    hex = 'f000',
+	utf = '\uf000';
 
 describe ('Conversion', function () {
     it ('Should translate class to hex', function () {
         should (convert.classToHex (klass)).eql (hex);
     });
     it ('Should translate class to unicode', function () {
-        should (convert.classToUnicode (klass)).eql ('\\u' + hex);
+        should (convert.classToUnicode (klass)).eql (utf);
     });
     it ('Should translate class to css unicode', function () {
         should (convert.classToCSSUnicode (klass)).eql ('\\' + hex);

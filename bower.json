@@ -1,6 +1,6 @@
 {
   "name": "font-icon-convert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/sielay/font-icon-convert",
   "description": "Conversion from class names to unicode for Font Awesome and Glyphicons for Bootstrap",
   "authors": [

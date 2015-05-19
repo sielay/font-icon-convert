@@ -1,0 +1,30 @@
+{
+  "name": "font-icon-convert",
+  "version": "1.0.0",
+  "description": "Conversion from class names to unicode for Font Awesome and Glyphicons for Bootstrap ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sielay/font-icon-convert.git"
+  },
+  "author": "Lukasz Sielski <lukaszsielski@gmail.com> (http://lukaszsielski.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sielay/font-icon-convert/issues"
+  },
+  "homepage": "https://github.com/sielay/font-icon-convert",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "chalk": "^1.0.0",
+    "font-awesome": "^4.3.0",
+    "gulp": "^3.8.11",
+    "gulp-inject": "^1.2.0",
+    "gulp-uglify": "^1.2.0",
+    "mocha": "^2.2.5",
+    "parcss": "^2.5.3",
+    "should": "^6.0.3"
+  }
+}

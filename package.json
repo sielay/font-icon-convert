@@ -1,6 +1,6 @@
 {
   "name": "font-icon-convert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Conversion from class names to unicode for Font Awesome and Glyphicons for Bootstrap ",
   "main": "index.js",
   "scripts": {

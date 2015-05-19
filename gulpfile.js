@@ -42,7 +42,7 @@ gulp.task ('build', function () {
                     content += match;
                 });
                 read (content, function () {
-                    fs.writeFile (__dirname + '/dist/map.json', JSON.stringify (map, null, 2), 'utf8', function () {
+                    fs.writeFile (__dirname + '/dist/map.json', JSON.stringify (map, null, 2).replace(/;$/,''), 'utf8', function () {
                         if ( err ) return console.error (chalk.red (err));
 
                         gulp.src ('index.js').

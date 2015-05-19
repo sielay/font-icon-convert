@@ -854,4 +854,4 @@
   "glyphicon-menu-right": "e258",
   "glyphicon-menu-down": "e259",
   "glyphicon-menu-up": "e260"
-};
+}
